@@ -31,8 +31,8 @@
                 Receive proposals from best agents for free
             </p>
             <form action="#" class="form">
-                <input type="text" placeholder="Enter a Suburb" name="search" id="search-input">
-                <button id="search-btn" type="submit">Submit</button>
+                <input type="text" placeholder="Enter a Suburb" name="search" class="search-input">
+                <button class="search-btn" type="submit">Submit</button>
             </form>
         </section>
     </header>
@@ -118,15 +118,16 @@
             <div>
                 <div>
                     <ul class="feedbacks">
-                        <li>Testimonials</li>
-                        <li>Recent Feedbacks</li>
+                        <li> <a id="btn-dark" href="#">Testimonials</a> </li>
+                        <li><a id="btn-light" href="#">Recent Feedbacks</a> </li>
                     </ul>
                 </div>
                 <div>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque maiores sunt magni dicta aliquid repudiandae?
                     </p>
-                    <h6>John Mayer</h6>
+                    <hr>
+                    <h5>John Mayer</h5>
                     <h6>Halycon, CEO</h6>
                 </div>
                 <div class="img-gallery">
@@ -136,12 +137,17 @@
                 </div>
             </div>
 
-            <div>
-                <form action="#">
-                    <h1>Find an Agent</h1>
-                    <input type="text" placeholder="Enter a Suburb" name="search" class="search-input">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+            <div class="btm-search-box">
+                <div>
+                    <h2>Find An Agent</h2>
+                </div>
+                <div>
+                    <form action="#" class="search-bottom">
+                        <input type="text" placeholder="Enter a Suburb" name="search" class="search-input">
+                        <button class="search-btn" type="submit">Submit</button>
+                    </form>
+                </div>
+
             </div>
         </section>
 

@@ -1,20 +1,42 @@
+// font-family: 'Bellefair', serif
+// font-family: 'Raleway', sans-serif
+
 body,html
-  background: $swatch_7
+  background: $swatch_2
 
 li
   list-style: none
 a,p,
   text-decoration: none
   color: $swatch_1
-  font-size: .7em
+  font-size: 1em
+  line-height: 1.5
+  font-family: 'Bellefair', serif
 
 h1,h2,h3,h4,h5,h6
   color: $swatch_1
   font-weight: bold
-
+  font-family: 'Raleway', sans-serif
+  margin: 6px 0
 .wrapper
   background: $swatch_2
   max-width: 1024px
   margin: 0 auto
-  padding: 0 1em
-  
+  border: 1px solid $swatch_8
+
+h3
+  display: inline-block
+  padding-bottom: 5px
+  position: relative
+h3:before
+  content: ""
+  position: absolute
+  width: 40%
+  height: 1px
+  bottom: -20%
+  left: 25%
+  border-bottom: 4px solid $swatch_9
+
+hr
+  margin-top: 3em
+  max-width: 20%;

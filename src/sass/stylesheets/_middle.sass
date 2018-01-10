@@ -2,22 +2,6 @@
   padding-top: 7em
   text-align: center
   margin: 0 2em
-  h3
-    font-weight: 300
-    display: inline-block
-    padding-bottom: 5px
-    position: relative
-  h3:before
-    content: ""
-    position: absolute
-    width: 40%
-    height: 1px
-    bottom: -20%
-    left: 25%
-    border-bottom: 4px solid $swatch_9
-  hr
-    margin-top: 3em
-    max-width: 30%;
 
 .product-divs
   display: flex
@@ -25,8 +9,8 @@
   margin: 4.5em 0
 
 .services-div
+  text-align: center
   h3
-    text-align: center
     margin: 4em 0
 .services 
   display: grid
@@ -46,22 +30,51 @@
     flex-direction: row
     justify-content: center
     text-align: center
-    padding: 3em 0
+    padding: 4em 0
+    font-size: 14px 
+    #btn-dark
+      color: $swatch_2 
     li:first-child
-      padding: 10px 15px
+      background: #5F667A
+      padding: 12px 17px
       border: 1px solid $swatch_3
+      border-top-left-radius: 5px
+      border-bottom-left-radius: 5px
+
     li:last-child
-      padding: 10px 5px
+      padding: 12px 7px
       border: 1px solid $swatch_3
+      border-top-right-radius: 5px
+      border-bottom-right-radius: 5px
 
   .img-gallery
     padding: 2em 0
-    max-width: 30%
+    max-width: 100%
     margin: 0 auto
     img
       max-width: 100px
+      margin: 0 20px
       max-height: 100px
       border-radius: 50%
+      border: 3px solid $swatch_9
+      box-shadow: 0 0 0 2px hsl(0, 0%, 95%)
+
+      &:first-child
+        filter: grayscale(100%);
+        max-height: 95px
+        opacity: .3
+      &:last-child
+        filter: grayscale(100%);
+        max-height: 95px
+        opacity: .3
+  h5,h6
+    font-size: 14px
+    margin: .6em 0
+  h6
+    font-weight: 300
+    opacity: .6
+    
+
 
 @media (min-width: 768px) 
   .product-divs

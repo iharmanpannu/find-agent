@@ -1,15 +1,13 @@
 .hero-header
-  height: 100vh
+  height: 90vh
   width: 100vw
   color: $swatch_2
   position: relative
   text-align: center
-  background: 
-    image: url('../../src/img/landing-img.jpg')
-    color: $swatch_1
-    position: center
+  background: linear-gradient(rgba(95, 102, 122, 0.5), rgba(95, 102, 122, 0.5)), url('../../src/img/landing-img.jpg')
     repeat: no-repeat
     size: cover
+    position: center
 
 .header-info 
   position: absolute
@@ -26,26 +24,28 @@
   p
     font-size: .8rem
     color: $swatch_2
-  
-  #search-input
-    width: 80%
-    padding: 1em 2em
-    background: $swatch_8
-    color: $swatch_2
-    border: none
-    border-top-left-radius: 5px
-    border-bottom-left-radius: 5px
+
 .form
   display: flex
   margin-top: 1em
-    
-  #search-btn
-    font-size: .6em
-    color: $swatch_2
-    padding: 1em 1.5em
-    background: $btn_color
-    border-top-right-radius: 5px
-    border-bottom-right-radius: 5px
-    border: none
+
+.search-input
+  width: 80%
+  padding: 1em 2em
+  background: $swatch_8
+  color: $swatch_2
+  border: none
+  border-top-left-radius: 3px
+  border-bottom-left-radius: 3px
+
+  
+.search-btn
+  font-size: .6em
+  color: $swatch_2
+  padding: 1em 1.5em
+  background: $btn_color
+  border-top-right-radius: 3px
+  border-bottom-right-radius: 3px
+  border: none
 
 

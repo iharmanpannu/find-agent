@@ -1,0 +1,36 @@
+.btm-search-box
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  height: 250px
+  background: linear-gradient(rgba(95, 102, 122, 0.6), rgba(95, 102, 122, 0.6)), url('../../src/img/bottom-search.jpg')
+    repeat: no-repeat
+    size: cover
+    position: center
+  h2
+    color: $swatch_2
+    font-weight: 600
+    margin-bottom: 1em
+    
+  .search-input
+    background: $swatch_2
+
+  .search-bottom
+    display: flex
+
+
+
+@media (min-width: 800px)
+  .btm-search-box
+    flex-direction: row
+    .search-input
+      padding: 0 150px
+    h2
+      margin-right: 2em
+      margin-bottom: 0
+
+  .search-bottom
+    display: flex
+    flex-direction: row
+
