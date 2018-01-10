@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../sass/main.sass","loc":{"line":2,"column":7}}],"generated":{"js":"\"use strict\";\n\nrequire(\"../sass/main.sass\");"},"hash":"5e8cf2f5c4175e06e39420cfc96e7111"}
