@@ -10,39 +10,35 @@
 </head>
 
 <body>
-
+    <header class="hero-header">
+        <nav class="nav">
+            <ul class="main-nav">
+                <li id="logo"><i class="fab fa-adn"></i></li>
+                <li>
+                    <a href="#">Agents</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+                <li><a id="sign-up" href="#">Sign up</a> </li>
+            </ul>
+        </nav>
+        <section class="header-info ">
+            <h2>
+                Relax, Finding An Agent Just Got Easier
+            </h2>
+            <p>
+                Receive proposals from best agents for free
+            </p>
+            <form action="#" class="form">
+                <input type="text" placeholder="Enter a Suburb" name="search" id="search-input">
+                <button id="search-btn" type="submit">Submit</button>
+            </form>
+        </section>
+    </header>
     <div class="wrapper">
-        <header class="hero-header">
-            <nav class="nav">
-                <ul class="main-nav">
-                    <li id="logo"><i class="fab fa-adn"></i></li>
-                    <li>
-                        <a href="#">Agents</a>
-                    </li>
-                    <li>
-                        <a href="#">Login</a>
-                    </li>
-                    <li><a id="sign-up" href="#">Sign up</a> </li>
-                </ul>
-            </nav>
-
-            <section class="header-info">
-                <h1>
-                    Relax, Finding An Agent Just Got Easier
-                </h1>
-                <p>
-                    Receive proposals from best agents for free
-                </p>
-                <form action="#" class="form">
-                    <input type="text" placeholder="Enter a Suburb" name="search" id="search-input">
-                    <button id="search-btn" type="submit">Submit</button>
-                </form>
-
-            </section>
-        </header>
-
-        <main class="main-section">
-            <sectionc class="stats-col">
+        <main class="main-section ">
+            <section class="stats-col ">
                 <div class="stats">
                     <div>
                         <h2>20,000</h2>
@@ -61,26 +57,25 @@
                         <h6>Suburbs</h6>
                     </div>
                 </div>
-            </sectionc>
-
+            </section>
             <section class="products">
                 <div>
                     <h3>How it works</h3>
-                    <hr>
+                    <hr id="h3">
                 </div>
-                <div>
+                <div class="product-divs">
                     <div>
-                        <i class="fas fa-address-card"></i>
+                        <i class="fas fa-address-card fa-3x "></i>
                         <h4>Compare</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, incidunt.</p>
                     </div>
                     <div>
-                        <i class="fas fa-pencil-alt"></i>
+                        <i class="fas fa-pencil-alt fa-3x"></i>
                         <h4>Reciever Proposals</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, incidunt.</p>
                     </div>
                     <div>
-                        <i class="fas fa-users"></i>
+                        <i class="fas fa-users fa-3x"></i>
                         <h4>Sell with the best</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, incidunt.</p>
                     </div>
@@ -88,9 +83,9 @@
 
             </section>
 
-            <section>
+            <section class="services-div">
                 <h3>Why choose us?</h3>
-                <div>
+                <div class="services">
                     <div><i class="fas fa-check"></i>
                         <h4>Quick</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, quiui kdfd.</p>
@@ -119,12 +114,12 @@
             </section>
         </main>
 
-        <section class="aside-section">
+        <section class="aside-section ">
             <div>
                 <div>
-                    <ul>
-                        <li></li>
-                        <li></li>
+                    <ul class="feedbacks">
+                        <li>Testimonials</li>
+                        <li>Recent Feedbacks</li>
                     </ul>
                 </div>
                 <div>
@@ -134,7 +129,7 @@
                     <h6>John Mayer</h6>
                     <h6>Halycon, CEO</h6>
                 </div>
-                <div>
+                <div class="img-gallery">
                     <img src="src/img/person1.jpg" alt="person 1">
                     <img src="src/img/person2.jpg" alt="person 2">
                     <img src="src/img/person3.jpg" alt="person 3">
@@ -150,7 +145,7 @@
             </div>
         </section>
 
-        <footer>
+        <footer class="">
             <div>
                 <nav>
                     <ul class="footer-nav">
@@ -175,15 +170,7 @@
 
             </div>
         </footer>
-
     </div>
-
-
-
-
-
-
-
 
     <script src="src/js/index.js"></script>
 </body>
