@@ -19,7 +19,17 @@
   .search-bottom
     display: flex
 
-
+.social
+  padding-bottom: 2em
+.social-icons
+  display: flex
+  flex-direction: row
+  justify-content: center
+  li
+    padding: 0 10px
+    
+.footer-nav 
+  display: none
 
 @media (min-width: 800px)
   .btm-search-box
@@ -33,4 +43,13 @@
   .search-bottom
     display: flex
     flex-direction: row
+  .footer
+    display: flex
+    .social
+      margin-left: auto
+  .footer-nav
+    display: flex
+    flex-direction: row
+    li
+      padding: 0 10px    
 
