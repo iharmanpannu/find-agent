@@ -49,6 +49,9 @@ a, p {
   line-height: 1.5;
   font-family: 'Bellefair', serif; }
 
+li:hover {
+  transform: scale(1.1) translateY(0px); }
+
 h1, h2, h3, h4, h5, h6 {
   color: #5F667A;
   font-weight: bold;
@@ -84,7 +87,7 @@ hr {
   color: #f6f5f3;
   position: relative;
   text-align: center;
-  background: linear-gradient(rgba(87, 112, 131, 0.5), rgba(87, 112, 131, 0.5)), url("d5405af518a2f39ce5c871a606961491.jpg");
+  background: linear-gradient(rgba(87, 112, 131, 0.5), rgba(87, 112, 131, 0.5)), url("../../src/img/landing-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -292,7 +295,7 @@ hr {
   justify-content: center;
   align-items: center;
   height: 250px;
-  background: linear-gradient(rgba(95, 102, 122, 0.6), rgba(95, 102, 122, 0.6)), url("9bd5da71e496f967e1dc09f1899d5536.jpg");
+  background: linear-gradient(rgba(95, 102, 122, 0.6), rgba(95, 102, 122, 0.6)), url("../../src/img/bottom-search.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
